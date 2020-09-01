@@ -1,0 +1,46 @@
+body{
+    background-color: #e0e0e0;
+    margin:0%;
+    font-family:  'Ubuntu', sans-serif;
+}
+header{
+    background-color: rosybrown;
+    display: flex;
+    z-index: 1;
+    justify-content: space-between;
+    top: 0px;
+    position: sticky;
+}
+.delhi{
+    background-color:lightgray;
+    width: 40%;
+    margin:2%;
+    grid-gap:10px;
+    float:left;
+    color: black;
+}
+.hotelname{
+    display: flex;
+    flex-direction: row;
+}
+#content{
+    overflow-y: auto;    
+}
+footer{
+    background-color: rosybrown;
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+    align-items: center;
+    bottom: 0px;
+    position: sticky;
+}
+#contactlink{
+    float:right;
+    padding-right: 1%;
+    /* padding-top:1%; */
+}
+#contactno{
+    padding-left: 1%;
+    padding-top: 1.6%;
+}

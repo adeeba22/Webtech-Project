@@ -1,0 +1,50 @@
+body{
+    background-color: #e0e0e0;
+    margin:0%;
+    font-family:  'Ubuntu', sans-serif;
+}
+header{
+    background-color: rosybrown;
+    display: flex;
+    z-index: 1;
+    justify-content: space-between;
+    top: 0px;
+    position: sticky;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 60%;
+}
+.image{
+    border: 1px solid black;
+    margin-top: 4%;
+    width: 65%;
+    height: 400px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.parentform{
+    border: 1px solid black;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 30%;
+}
+footer{
+    background-color: rosybrown;
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+    align-items: center;
+    bottom: 0px;
+    position: sticky;
+}
+.body{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+}
